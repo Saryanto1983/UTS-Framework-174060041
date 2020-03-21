@@ -6,7 +6,7 @@
  <form action = "<?php echo $_SERVER['PHP_SELF']; ?>" method = "GET"> 
   Derajat: 
  <input type = "text" name = "degree" size=4> 
- <select name="scale"><option value="celcius">Celsius</option><option value="fahrenheit">Fahrenheit</option><option value="reamur">Reamur</option><option value="kelvin">Kelvin</option></select> 
+ <select name="scale"><option value="celcius">Celcius</option><option value="fahrenheit">Fahrenheit</option><option value="reamur">Reamur</option><option value="kelvin">Kelvin</option></select> 
  <br/> 
  <input type = "submit" name = "Konversi Suhu"/> 
  </form> 
